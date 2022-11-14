@@ -15,8 +15,8 @@ public class Main {
         System.out.println("Задача 2");
         int i = 1;
         while (i <= 10) {
-            i++;
             System.out.print(i + " ");
+            i++;
         }
         System.out.println("\n");
         for (int i2 = 10; i2 > 0; i2--) {
@@ -72,10 +72,8 @@ public class Main {
         //int firstFriday = 5;
         int day = 5;
         while (day < 31) {
-            day = day + 7;
-            if (day <= 31) {
                 System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчёт.");
-            }
+                day = day + 7;
         }
         //Дз 3, Задача 1
         System.out.println("Задача 1");
